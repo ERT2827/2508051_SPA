@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/2508051_SPA/static/css/main.dd94aa16.css",
-    "main.js": "/2508051_SPA/static/js/main.23514e6d.js",
+    "main.css": "/2508051_SPA/static/css/main.3e8eb901.css",
+    "main.js": "/2508051_SPA/static/js/main.6a0fcc9a.js",
+    "static/media/crab-rave.gif": "/2508051_SPA/static/media/crab-rave.e1bf0f8f55daa7230e9c.gif",
     "static/media/Puppyholder.jpg": "/2508051_SPA/static/media/Puppyholder.c03d6cf0fa1af7d097f7.jpg",
     "index.html": "/2508051_SPA/index.html",
-    "main.dd94aa16.css.map": "/2508051_SPA/static/css/main.dd94aa16.css.map",
-    "main.23514e6d.js.map": "/2508051_SPA/static/js/main.23514e6d.js.map"
+    "main.3e8eb901.css.map": "/2508051_SPA/static/css/main.3e8eb901.css.map",
+    "main.6a0fcc9a.js.map": "/2508051_SPA/static/js/main.6a0fcc9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd94aa16.css",
-    "static/js/main.23514e6d.js"
+    "static/css/main.3e8eb901.css",
+    "static/js/main.6a0fcc9a.js"
   ]
 }
