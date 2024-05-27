@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/2508051_SPA/static/css/main.95624274.css",
-    "main.js": "/2508051_SPA/static/js/main.47dad71c.js",
+    "main.css": "/2508051_SPA/static/css/main.7827b68c.css",
+    "main.js": "/2508051_SPA/static/js/main.36224631.js",
     "static/media/crab-rave.gif": "/2508051_SPA/static/media/crab-rave.e1bf0f8f55daa7230e9c.gif",
+    "static/media/Third year poster.png": "/2508051_SPA/static/media/Third year poster.93d6b161ed015264db26.png",
+    "static/media/Fourtown.jpg": "/2508051_SPA/static/media/Fourtown.d8768c97c3eca91a67b2.jpg",
+    "static/media/self-drawing.png": "/2508051_SPA/static/media/self-drawing.1a130338d965b17e8c87.png",
+    "static/media/About-drawing.png": "/2508051_SPA/static/media/About-drawing.6c073c7d3d463dcb2ad7.png",
     "static/media/Wireframe_home.png": "/2508051_SPA/static/media/Wireframe_home.1aef8f0733d55629149f.png",
+    "static/media/Kiteman.jpg": "/2508051_SPA/static/media/Kiteman.e915c3f67ae8ca6000b0.jpg",
     "static/media/Wireframe_design.png": "/2508051_SPA/static/media/Wireframe_design.e86ca200bd47f5a0d769.png",
     "static/media/Wireframe_me.png": "/2508051_SPA/static/media/Wireframe_me.1e8d5045e29fa86c018c.png",
     "static/media/Wireframe_writing.png": "/2508051_SPA/static/media/Wireframe_writing.4968802d1c38a3ae6274.png",
@@ -12,11 +17,11 @@
     "static/media/Site-map.png": "/2508051_SPA/static/media/Site-map.52ec21c51a592574543b.png",
     "static/media/Wireframe_Navbar.png": "/2508051_SPA/static/media/Wireframe_Navbar.83b75296693aa8c69228.png",
     "index.html": "/2508051_SPA/index.html",
-    "main.95624274.css.map": "/2508051_SPA/static/css/main.95624274.css.map",
-    "main.47dad71c.js.map": "/2508051_SPA/static/js/main.47dad71c.js.map"
+    "main.7827b68c.css.map": "/2508051_SPA/static/css/main.7827b68c.css.map",
+    "main.36224631.js.map": "/2508051_SPA/static/js/main.36224631.js.map"
   },
   "entrypoints": [
-    "static/css/main.95624274.css",
-    "static/js/main.47dad71c.js"
+    "static/css/main.7827b68c.css",
+    "static/js/main.36224631.js"
   ]
 }
