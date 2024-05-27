@@ -1,3 +1,5 @@
+/* Site styling */
+
 *{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
@@ -6,6 +8,21 @@
 body{
     margin: 0;
 }
+
+h1{
+    padding-top: 4rem;
+}
+
+a{
+    color: black;
+}
+
+.pageHeading {
+    text-align: center;
+    font-size: 6rem;
+}
+
+/* Navbar */
 
 .nav-style{
     background-color: black;
@@ -16,7 +33,15 @@ body{
     gap: 2rem;
     padding: 0 1rem;
 
+    border-bottom: 2px solid white;
+
     font-size: 1.2rem;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 100;
 }
 
 .nav-style a{
@@ -31,3 +56,269 @@ body{
     gap: 1rem;
 }
 
+.bigTitle {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.bigTitle span{
+    font-size: 3rem;
+}
+
+/* Home page styles */
+
+.homePage{
+    background-color: black;
+    padding-bottom: 8rem;
+}
+
+.homeSplash {
+    width: 100vw;
+    height: 100vh;
+}
+
+.homeSplash img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeSplash h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+    font-size: 5rem;
+    z-index: 2;
+
+    margin: 0%;
+    padding: 0%;
+
+    text-decoration: underline;
+}
+
+.homeSplash h2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+    font-size: 3rem;
+    z-index: 2;
+
+    margin: 0%;
+    padding: 0%;
+}
+
+.homeBox{
+    margin: 3rem 15vw;
+    width: 70vw;
+
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeBox img{
+    width: 90%;
+    height: auto;
+    padding-left: 10%;
+    padding-top: 1rem;
+
+    object-fit: contain;
+}
+
+.homeBox section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 4rem;
+}
+
+.homeBox p{
+    width: 60%;
+    font-size: 2.2rem;
+    padding-left: 5%;
+}
+
+.homeBox a{
+    margin-right: 5%;
+    font-size: 1.5rem;
+}
+
+
+/* writing page */
+
+.linkBox{
+    border: 3px solid black;
+    width: 30vw;
+    margin-left: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linkBox a{
+    padding: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.writingArticle {
+    width: 80vw;
+    margin: 5rem 10vw;
+
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.writingArticle h2{
+    padding-left: 3rem;
+}
+
+.writingArticle p{
+    padding: 0 4rem;
+}
+
+.reference{
+    font-style: italic;
+}
+
+/* Design */
+.color-overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.500);
+    z-index: 2;
+}
+
+.crabby {
+    z-index: 3;
+    position: fixed;
+    width: 40vw;
+    left: 30vw;
+    top: 30vh;
+
+    border: 15px solid black;
+}
+
+.designArticle {
+    width: 80vw;
+    margin: 5rem 10vw;
+
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    box-shadow: rgba(0, 0, 0, 0.500) 10px 5px 5px;
+}
+
+.designArticle h2{
+    padding-left: 3rem;
+}
+
+.designArticle p{
+    padding: 0 4rem;
+}
+
+.designArticle ul{
+    padding: 0 5rem;
+}
+
+.wireframes {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    padding-top: 1rem;
+}
+
+.wireframes img{
+    width: 30%;
+    border: 2px solid black;
+}
+
+/* About Me */
+
+.aboutPage {
+    background-color: black;
+    padding-bottom: 3rem;
+}
+
+.aboutSplash {
+    width: 100vw;
+    height: 100vh;
+}
+
+.aboutSplash img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutSplash h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+    font-size: 5rem;
+    z-index: 2;
+
+    margin: 0%;
+    padding: 0%;
+
+    text-decoration: underline;
+}
+
+.aboutSplash h2{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+    font-size: 3rem;
+    z-index: 2;
+
+    margin: 0%;
+    padding: 0%;
+}
+
+.aboutBody {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 5vw;
+}
+
+.aboutBody article{
+    width: 50%;
+}
+
+.aboutBody p{
+    background-color: white;
+    padding: 1rem;
+    margin: 0.1rem;
+}
+
+.aboutBody img{
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+}

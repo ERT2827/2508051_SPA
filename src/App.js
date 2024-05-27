@@ -13,11 +13,11 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/art" element={<Art/>} />
-      <Route path="/about" element={<About/>} />
-      <Route path="/writing" element={<Writing/>} />
-      <Route path="/design" element={<Design/>} />
+      <Route path="/2508051_SPA/" element={<Home/>} />
+      <Route path="/2508051_SPA/art" element={<Art/>} />
+      <Route path="/2508051_SPA/about" element={<About/>} />
+      <Route path="/2508051_SPA/writing" element={<Writing/>} />
+      <Route path="/2508051_SPA/design" element={<Design/>} />
       <Route path="*" element={<ErrorPage/>} />
     </Routes>
     </>

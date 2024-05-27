@@ -2,6 +2,6 @@
 
 export default function Art() {
     return(
-        <h1>COMING SOON</h1>
+        <h1 className="pageHeading">COMING SOON</h1>
     )
 }
