@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/2508051_SPA/static/css/main.7827b68c.css",
-    "main.js": "/2508051_SPA/static/js/main.36224631.js",
+    "main.css": "/2508051_SPA/static/css/main.b9b3fcf0.css",
+    "main.js": "/2508051_SPA/static/js/main.4473a561.js",
+    "static/media/siteTexture.png": "/2508051_SPA/static/media/siteTexture.698fc702fa528258894f.png",
     "static/media/crab-rave.gif": "/2508051_SPA/static/media/crab-rave.e1bf0f8f55daa7230e9c.gif",
-    "static/media/Third year poster.png": "/2508051_SPA/static/media/Third year poster.93d6b161ed015264db26.png",
-    "static/media/Fourtown.jpg": "/2508051_SPA/static/media/Fourtown.d8768c97c3eca91a67b2.jpg",
-    "static/media/self-drawing.png": "/2508051_SPA/static/media/self-drawing.1a130338d965b17e8c87.png",
-    "static/media/About-drawing.png": "/2508051_SPA/static/media/About-drawing.6c073c7d3d463dcb2ad7.png",
+    "static/media/About-drawing.png": "/2508051_SPA/static/media/About-drawing.f20b694cd13143caf5f1.png",
+    "static/media/self-drawing.png": "/2508051_SPA/static/media/self-drawing.87a492bf2644ac133b21.png",
+    "static/media/writing-topper.png": "/2508051_SPA/static/media/writing-topper.585241554eef9c803b9f.png",
+    "static/media/design-topper.png": "/2508051_SPA/static/media/design-topper.9e80a0b5862b4d9492d6.png",
+    "static/media/portfolio-topper.png": "/2508051_SPA/static/media/portfolio-topper.21574b6e0dced9b78902.png",
+    "static/media/Color-palette.png": "/2508051_SPA/static/media/Color-palette.074168f8c72b7a0a43bd.png",
     "static/media/Wireframe_home.png": "/2508051_SPA/static/media/Wireframe_home.1aef8f0733d55629149f.png",
-    "static/media/Kiteman.jpg": "/2508051_SPA/static/media/Kiteman.e915c3f67ae8ca6000b0.jpg",
     "static/media/Wireframe_design.png": "/2508051_SPA/static/media/Wireframe_design.e86ca200bd47f5a0d769.png",
     "static/media/Wireframe_me.png": "/2508051_SPA/static/media/Wireframe_me.1e8d5045e29fa86c018c.png",
     "static/media/Wireframe_writing.png": "/2508051_SPA/static/media/Wireframe_writing.4968802d1c38a3ae6274.png",
     "static/media/Wireframe_art.png": "/2508051_SPA/static/media/Wireframe_art.c392b68d8bb6e6c1a714.png",
+    "static/media/wideFlag.jpg": "/2508051_SPA/static/media/wideFlag.78aa3b9201ace5a1349d.jpg",
     "static/media/Puppyholder.jpg": "/2508051_SPA/static/media/Puppyholder.c03d6cf0fa1af7d097f7.jpg",
     "static/media/Site-map.png": "/2508051_SPA/static/media/Site-map.52ec21c51a592574543b.png",
+    "static/media/triPaloski.png": "/2508051_SPA/static/media/triPaloski.31d90e0fb6a3771acf29.png",
     "static/media/Wireframe_Navbar.png": "/2508051_SPA/static/media/Wireframe_Navbar.83b75296693aa8c69228.png",
     "index.html": "/2508051_SPA/index.html",
-    "main.7827b68c.css.map": "/2508051_SPA/static/css/main.7827b68c.css.map",
-    "main.36224631.js.map": "/2508051_SPA/static/js/main.36224631.js.map"
+    "main.b9b3fcf0.css.map": "/2508051_SPA/static/css/main.b9b3fcf0.css.map",
+    "main.4473a561.js.map": "/2508051_SPA/static/js/main.4473a561.js.map"
   },
   "entrypoints": [
-    "static/css/main.7827b68c.css",
-    "static/js/main.36224631.js"
+    "static/css/main.b9b3fcf0.css",
+    "static/js/main.4473a561.js"
   ]
 }
