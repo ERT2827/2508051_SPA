@@ -1,12 +1,13 @@
 /* Site styling */
 
 *{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
+    background-color: whitesmoke;
 }
 
 h1{
@@ -15,11 +16,80 @@ h1{
 
 a{
     color: black;
+    transition-duration: 0.2s;
+}
+
+a:hover{
+    font-size: larger;
+    transition-duration: 0.2s;
+}
+
+button{
+    color: antiquewhite;
+    background-color: black;
+    border: 1px solid antiquewhite;
+    font-weight: 700;
+
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    color: black;
+    background-color: antiquewhite;
+    border-color: black;
+
+    font-size: large;
+
+    transition-duration: 0.2s;
 }
 
 .pageHeading {
-    text-align: center;
-    font-size: 6rem;
+    width: 100vw;
+    height: 80vh;
+}
+
+.pageHeading img{
+    width: 100%;
+    height: 100%;
+}
+
+.pageHeading h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+    font-size: 5rem;
+    z-index: 2;
+
+    margin: 0%;
+    padding: 0%;
+
+    text-decoration: underline;
+}
+
+
+/* Hover colors/color placeholders */
+
+.coral:hover{
+    color: coral;
+}
+
+.pikured:hover{
+    color: rgb(237, 34, 56);
+}
+
+.salmon:hover{
+    color: #eb5d4a;
+}
+
+.lightergreen:hover{
+    color: #38cd38;
+}
+
+.lighterblue:hover{
+    color: #847bff;
 }
 
 /* Navbar */
@@ -31,7 +101,7 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 0 10vw;
 
     border-bottom: 2px solid white;
 
@@ -40,6 +110,7 @@ a{
     position: fixed;
     top: 0;
     width: 100%;
+    height: 3rem;
 
     z-index: 100;
 }
@@ -57,19 +128,74 @@ a{
 }
 
 .bigTitle {
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 
+.bigTitle:hover{
+    font-size: 1.8rem;
+}
+
 .bigTitle span{
+    font-size: 2.4rem;
+}
+
+/* Jump to top button */
+
+.topButton{
+    /* visibility: none; */
+    position: fixed;
+    /* bottom: -12px; */
+    right: 12px;
+
+    height: 60px;
+    width: 60px;
+   
+    border-radius: 50%;
+
+    font-size: 2.4rem;
+    
+    z-index: 50;
+}
+
+.topButton:hover{
     font-size: 3rem;
+}
+
+/* Footer */
+footer{
+    width: 70vw;
+
+    margin: 1rem 15vw;
+
+    display: flex;
+    flex-direction: row;
+
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.footRow{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 5%;
+
+    width: 40%;
+
+}
+
+.footRow h3{
+    font-size: 1.8rem;
+    margin: 0;
 }
 
 /* Home page styles */
 
 .homePage{
-    background-color: black;
+    background-color: rgb(237, 34, 56);
     padding-bottom: 8rem;
+
+    padding-bottom: 2rem;
 }
 
 .homeSplash {
@@ -117,12 +243,13 @@ a{
     margin: 3rem 15vw;
     width: 70vw;
 
-    background-color: white;
+    background-image: url(./siteTexture.png);
     border-radius: 20px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .homeBox img{
@@ -152,36 +279,97 @@ a{
     font-size: 1.5rem;
 }
 
+.homeBox a:hover{
+    font-size: 1.7rem;
+    margin-right: 3%;
+    transition-duration: 0.2s;
+}
 
 /* writing page */
 
+.writingPage{
+    background-color: #38cd38;
+
+    padding-bottom: 2rem;
+}
+
 .linkBox{
     border: 3px solid black;
-    width: 30vw;
-    margin-left: 35vw;
+    width: 48vw;
+    margin-left: 26vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    background-image: url(./siteTexture.png);
 }
+
+/* 
+This CSS is depreciated since I have moved to
+using buttons to link inside of pages.
 
 .linkBox a{
     padding: 2rem;
     font-size: 1.4rem;
     text-align: center;
+    transition-duration: 0.2s;
+}
+
+.linkBox a:hover{
+    font-size: 1.6rem;
+} */
+
+.linkBox button{
+    padding: 1.8rem;
+    font-size: 1.4rem;
+    text-align: center;
+    transition-duration: 0.2s;
+
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+.linkBox button:hover{
+    font-size: 1.6rem;
+    padding: 1.6rem;
+    text-decoration: underline;
 }
 
 .writingArticle {
     width: 80vw;
     margin: 5rem 10vw;
 
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border: 1px solid black;
+    background-image: url(./siteTexture.png);
+
 
     padding-top: 2rem;
     padding-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.500) 10px 5px 5px;
+}
+
+.writingArticle button{
+    color: black;
+    background-color: transparent;
+    border: none;
+
+    font-size: larger;
+    padding-left: 2.8rem;
+}
+
+.writingArticle button:hover{
+    font-size: x-large;
+    text-decoration: underline;
 }
 
 .writingArticle h2{
+    padding-left: 2.5rem;
+    font-size: 3rem;
+}
+
+.writingArticle h3{
+    font-size: 1.4rem;
     padding-left: 3rem;
 }
 
@@ -194,6 +382,12 @@ a{
 }
 
 /* Design */
+.designPage{
+    background-color: #847bff;
+
+    padding-bottom: 2rem;
+}
+
 .color-overlay {
     width: 100vw;
     height: 100vh;
@@ -214,12 +408,35 @@ a{
     border: 15px solid black;
 }
 
-.designArticle {
-    width: 80vw;
-    margin: 5rem 10vw;
+.designSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90vw;
 
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    margin: 0 5vw;
+    gap: 2rem;
+}
+
+.sectionImage{
+    width: 60vw;
+    margin: 1rem 20vw;
+
+    border-radius: 30px;
+}
+
+.sectionHeading{
+    padding-left: 1rem;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.designArticle {
+    width: 48%;
+
+    border: 2px solid black;
+
+    background-image: url(./siteTexture.png);
 
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -227,8 +444,12 @@ a{
     box-shadow: rgba(0, 0, 0, 0.500) 10px 5px 5px;
 }
 
-.designArticle h2{
+.designArticle h3{
     padding-left: 3rem;
+}
+
+.designArticle h4{
+    padding-left: 3.4rem;
 }
 
 .designArticle p{
@@ -237,6 +458,16 @@ a{
 
 .designArticle ul{
     padding: 0 5rem;
+}
+
+.designArticle li{
+    font-size: medium;
+    list-style: disc;
+}
+
+.designArticle img{
+    width: 80%;
+    margin-left: 10%;
 }
 
 .wireframes {
@@ -251,13 +482,21 @@ a{
 .wireframes img{
     width: 30%;
     border: 2px solid black;
+    transition-duration: 0.2s;
+}
+
+.wireframes img:hover{
+    width: 50%;
+    transition-duration: 0.2s;
 }
 
 /* About Me */
 
 .aboutPage {
-    background-color: black;
+    background-color: coral;
     padding-bottom: 3rem;
+
+    padding-bottom: 2rem;
 }
 
 .aboutSplash {
@@ -309,16 +548,65 @@ a{
 
 .aboutBody article{
     width: 50%;
-}
-
-.aboutBody p{
-    background-color: white;
-    padding: 1rem;
-    margin: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .aboutBody img{
     width: 100%;
     border-radius: 12px;
     margin-top: 0.5rem;
+}
+
+.aboutBackground{
+    background-image: url(./siteTexture.png);
+    padding: 1rem;
+    margin: 0.1rem;
+
+    border-radius: 20px;
+}
+
+.aboutBackground img{
+    height: 200px;
+    width: auto;
+    align-self: center;
+}
+
+/* Portfolio */
+
+.portfolioPage{
+    background-color: #eb5d4a;
+    padding-bottom: 2rem;
+}
+
+.portfolioBody{
+    width: 90vw;
+    margin: 0 5vw;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+}
+.portfolioBody img{
+    width: 24%; 
+    border: 5px solid #fef1de;
+}
+
+/* Reactivity control */
+
+@media (max-width: 600px) {
+
+    .aboutBody{
+        flex-direction: column;
+    }
+
+    .aboutBody article{
+        width: 100%;
+    }
+
+    .nav-style{
+        display: none;
+    }
 }

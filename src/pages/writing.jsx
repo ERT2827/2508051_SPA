@@ -1,46 +1,68 @@
-import Diagonal from "../components/diagonal";
+import { useRef } from 'react'
 
+import topper from '../content/writing-topper.png'
 
 export default function Writing() {
+    const artAnRef = useRef(); //This ref points to the art analysis
+    const artDeRef = useRef(); //This ref points to the art design essay
+    const blogRef1 = useRef(); //This ref points to the blog section, which is then subnavigated using the inner jump function
+    const blogRef2 = useRef(); //This ref points to the blog section, which is then subnavigated using the inner jump function
+    const blogRef3 = useRef(); //This ref points to the blog section, which is then subnavigated using the inner jump function
+
+    // I used this video as the basis for my smooth scroll: https://www.youtube.com/watch?v=MjHlltcA-nA
+
+    /* The other reason I'm using ref and not 
+    document.getelement is because it's supposedly more
+    correct for react.*/
+    
+    const articles = document.querySelectorAll("article");
+
+    console.log(articles[1]);
+    
     return(
-        <>
-            <h1 className="pageHeading">Writing</h1>
+        <section className="writingPage">
+            <section className="pageHeading">
+                <img src={topper} alt="background image" />
+                <h1>Portfolio</h1>
+            </section>
+            
+
             <section className="linkBox">
-                <a href="#artAnalysis">Art analysis</a>
-                <a href="#artDesign">Art design outline</a>
+                <button onClick={() => artAnRef.current?.scrollIntoView({behavior: 'smooth'})}>Art analysis</button> {/* These two buttons jump to their respective sections */}
+                <button onClick={() => artDeRef.current?.scrollIntoView({behavior: 'smooth'})}>Art design outline</button>
+                <button onClick={() => blogRef1.current?.scrollIntoView({behavior: 'smooth'})}>Blog posts </button>
             </section>
 
-            <Diagonal/>
-
             <section>
-                <article className="writingArticle" id="artAnalysis">
+                <article className="writingArticle" ref={artAnRef} id="1">
                     <h2>Web art analysis essay: Football 17776</h2>
-                    <h2>Football 17776:</h2>
+                    <button className="articleJump" onClick={() => artDeRef.current?.scrollIntoView({behavior: 'smooth'})}>Next Article ↓</button>
+                    <h3>Football 17776:</h3>
                     <p>Football 17776 (Bois, 2017) is a narrative piece of web art that tells the story of three satellites (Nine, Juice and Ten) as they drift aimlessly through space while observing a utopian post abundance earth where death has been eliminated and -to stave off boredom- humanity has begun playing vast games of football that span the entirety of the United States of America. </p><p>
                     The story is told using a variety of mediums, with text first and foremost, but also video and audio as well. As it unfolds, it uses these multiple mediums to explore and expand its melancholic atmosphere, delving into	themes of loneliness, hope, friendship and separation. The narrative unfolds over 25 chapters, with nine of those being multimedia videos that include audio, while the other sixteen are usually text mixed with images and some gifs.</p>
-                    <h2>What is net art: </h2>
+                    <h3>What is net art: </h3>
                     <p>Before I talk too much about this specific example, I want to define what net art is.</p><p>
                     “Internet art is art that is made on and for the internet, also known as net art. It encompasses various sub-genres of computer-based art including browser art and software art” (Tate, no date). It’s a broad field, which is brought together by the common usage of the internet as the vector of transmitting the constituent parts of the artwork (Tate, no date).</p><p>
                     It’s worth noting that ‘Net Art sounds like a short and trendy way of referring to internet art which is not false but inaccurate as the term is more encompassing relating to “network art,”’ (Chatel, 2019).  In other words, all internet art is net art, but not all net art is internet art (Chatel, 2019). It’s a small distinction, but it speaks to the size of broader sphere which Net Art operates in.</p><p>
                     In my own personal definition, Net Art is something that uses the unique attributes of the internet (infinite reproduction, multimodality, access to external resources like API or other sites) to create a provocative experience that draws an emotional response from the audience. In other words, a book that you can read on the internet is not net art. But a website with the text of a book that supplements that text with images or sound is net art, because it’s using the unique attributes of the internet as a medium to create something that can only exist within the context of being a digital artifact on a network.</p>
-                    <h2>So is Football 17776 net art:</h2>
+                    <h3>So is Football 17776 net art:</h3>
                     <p>Firstly, I want to look at the composition of Football 17776 (Bois, 2017). It is an experience that was made first and foremost for the internet, which uses the modes of sound, images, text and video to create a world and then immerse the user into it. The presence of sound and video means that the artwork could not exist in any other form and the site itself is built in HTML.</p><p>
                     There’s also the discussion to be had whether Football 17776 (Bois, 2017) is an artwork at all, or more of a narrative experience. This goes into the idea of the separation between image, art and text, which is still a hotly debated topic (Groensteen, 2000: 36). Ultimately, I believe that anything designed to be evocative is art, and that there should not be such a strict separation between that which is for narrative entertainment and for aesthetic appreciation. But those are just personal beliefs.</p><p>
                     Next, is Net Art exactly the right term to be used here? The phrase mostly refers to works created in the earlier days of the internet (Chatel, 2019), but I believe that Football 17776 (Bois, 2017) is harkening back to those earlier examples of net art like Screenfull, which utilize a range of media but little examples of interactivity to create something that is emotive for the audience (Dean, 2019). The difficulty of definition is ultimately down to the fact that Net Art is a relatively modern concept, with the earliest examples being from as recently as the late 1970s (Chatel, 2019), which compared to just about any other medium makes them an extremely modern invention. We’re still trying to figure out what its place in our society is, and how it relates to traditional art, if at all. So, it’s little wonder that we have yet to truly figure out our definitions.</p><p>
                     Ultimately, it’s hard to say whether anything is art, and especially hard to say whether something as multimodal as Football 17776 (Bois, 2017) is art, since it falls across so many categories and exists within a relatively new field. But under my definition, I would have to say yes, since the story was ultimately built from the ground up for the internet, and is highly provocative with themes of loneliness, connection and an examination of utopian life.</p>
-                    <h2>Net art and Multimodality:</h2>
+                    <h3>Net art and Multimodality:</h3>
                     <p>Something I’ve brought up a lot is the concept of multimodality, and I want to examine its relationship with net art. In its simplest form, multimodality is “the common properties of, and differences between, these different semiotic modes, and on the ways in which they are integrated in multimodal texts and communicative events” (Van Leeuwen, 2001: 447). I believe it’s important bring up in this context because Net Art is almost always multimodal.</p><p>
                     With the rare exception of net art that is purely text based, Net Art uses multimodality as a core strength. The ability to easily replicate images and videos means that they are frequently used in works of net art, but it’s more than just doing it for the sake of doing it. The use of multiple modes is often deployed strategically, to enhance the experience of consuming the artifact by utilizing multiple senses and forms of information gathering that humans are capable of. This increases immersion, allowing for the audience to become more emotionally attached to the subject, and creating a more emotive experience.</p>
-                    <h2>How Football 17776 uses the internet to evoke emotions:</h2>
+                    <h3>How Football 17776 uses the internet to evoke emotions:</h3>
                     <p>Let’s start by looking at why Football 17776 (Bois, 2017) is presented as net art at all. After all, the narrative -while multimodal- could be adapted to text. The story is mostly presented as such, in a series of lines of text that could be displayed without any kind of embellishment that is seen in this artwork. But I think where the artifact is truly arresting, and in a way that can only be achieved with net art, is how its presentation applies to its themes.</p><p>
                     Football 17776 (Bois, 2017) is a story and an art piece about three things: The thoughts of three satellites, life in a utopia and American Football. To start with the first, this is something that arguably benefits the most from being presented in the web art format. The perspective characters in the narrative aspect of the art piece are all machines, and as such communicate like machines. They use text instead of speech, and there’s something deeply impersonal about it. This is until communication is established, and the conversation is deepened by the addition of videos and back and forth image exchanges. This use of narrative assonance with the story and the presentation creates both immersion and investment, allowing the story to convey its themes more effectively than it would be able to as just text. </p><p>
                     The biggest impact this use of thematic cohesion has is how it allows the story to feel warmer than it otherwise would. This is, after all, an extremely isolating setting, with our characters all being millions of miles from each other and the earth, but the use of images and soothing music during the videos creates an atmosphere of warmth, which would have been harder to achieve otherwise. And of course, this atmosphere is also subverted as well. Some sections (like intermission part 4, or chapter 1) strip away the warmth with more minimalism to create a different atmosphere, while others utilize an overload of information to shake the audience back to attention as the regular flow of the story is interrupted.</p><p>
                     The intelligent use of medium is also present in other ways, like how in chapter one the long length of time the first portion of the story takes place over is represented by a physically long scroll down the page, which is often void of useful information, thus immersing us into the panic that nine feels as they drift through space all alone. Or how in several chapters satellite zoom ins are used both as a fun nod to the perspective characters being satellites (or rather AI living on satellites) and to convey the sheer scale of the football games taking place as the game crosses the whole continent. These subtle uses of the medium are not front and centre, but your brain definitely notices them, and it has an effect on how the audience perceives the artifact.</p><p>
                     The way the other themes synthesize with the net art is interesting as well. The most obvious is how the artifact borrows from the visual lexicon of football, with podcasts and the types of sport visuals seen in ESPN breakdowns being just some of the imagery it borrows. This immediately allows the audience a better reference point to approach the story from, since the visual lexicon of sports is like familiar to most people. It also helps make the story feel less tense, thanks to the deliberately goofy presentation, with an immediate shift in tone being apparent once the concept of “futuristic football” is introduced in chapter two. This is not a story about stakes, no one can die in this world and even the ending is just framed as the in between of chapters. These reduced stakes are then used to make what are some emotionally weighty conversations palatable, since the story can hit as hard as it is silly.</p><p>
                     That leads us onto the conversation at the centre of the artifact: What does the day to day like once we reach a utopian society? Football 17776’s (Bois, 2017) answer to this is that life must be imperfect so that it’s not boring. People do all kinds of mundane things to keep themselves occupied, and life somehow goes on as normal despite how different things are. The design of the website itself reflects that necessary imperfection. It’s a little ugly, with lots of “dirty” elements, like how the layout of pages/text or the abrasive font that could easily be cleaned up, especially considering that the site is relatively modern. Still, the site chooses not to, because then it would feel sterile and boring which would defeat the whole point of making the site feel comforting in the face of the heavy themes. The same is true with how nostalgic a lot of the imagery is, harkening back to both that earlier era of net art discussed by Chatel (2019) and Dean (2019) as well as to the mid-20th century to make the audience feel comforted as they think about the questions the story asks.</p>
-                    <h2>Conclusion:</h2>
+                    <h3>Conclusion:</h3>
                     <p>I really like Football 17776 (Bois, 2017), both as a story that takes an unexpected approach to tackling serious themes and as a piece of net art that uses the advantages of the medium to elevate the story that it tells to a higher level. It may not be the most boundary pushing example of Net Art, still being an artifact that could ultimately be reproduced in a physical medium. But doing so would take away a large part of what makes the experience so good, and that is for me the mark of a good piece of web art.</p>
-                    <h2>References:</h2>
+                    <h3>References:</h3>
                     <p className="reference">Bois, J. (2017) What football will look like in the future, SBNation.com. Available at: http://www.sbnation.com/a/17776-football (Accessed: 26 April 2024).</p> <p className="reference">
                     Chatel, M. (2019) ‘Net Art, Post-internet Art, New Aesthetics: The Fundamentals of Art on the Internet’, DANAE.IO, 2 December. Available at: https://medium.com/danae/net-art-post-internet-art-new-aesthetics-the-fundamentals-of-art-on-the-internet-55dcbd9d6a5 (Accessed: 27 April 2024). </p> <p className="reference">
                     Dean, A. (2019) What Is “Internet Art”? Here Are 10 Masterpieces To Know, Artsy. Available at: https://www.artsy.net/article/artsy-editorial-10-artistic-masterpieces-meant-experienced-online (Accessed: 26 April 2024).</p><p className="reference">
@@ -50,28 +72,120 @@ export default function Writing() {
                     Van Leeuwen, T. (2001). Multimodality. In D. Schiffrin, D. Tannen, & H. E. Hamilton (Eds.), The Handbook of Discourse Analysis (pp. 447-465). Blackwell Publishing.</p>
                 </article>
 
-                <Diagonal/>
-
-                <article className="writingArticle" id="artDesign">
+                <article className="writingArticle" ref={artDeRef}>
                     <h2>Web Art concept exploration:</h2>
+                    <button className="articleJump" onClick={() => artAnRef.current?.scrollIntoView({behavior: 'smooth'})}>Previous Article ↑ |</button>
+                    <button className="articleJump" onClick={() => blogRef1.current?.scrollIntoView({behavior: 'smooth'})}>Next Article ↓</button>
                     <p>Much of the greatest art is personal, which is why I wanted to create something based on my own personal experience. In the end, I’ve decided to create a multimodal piece, one which takes advantage of the reproducibility of digital media to convey my intention.</p><p>
                     The piece I’ve decided to make is currently being referred to as “My May”, and it’s a collection of short reflective writings and images (a mixture of art and relevant photos) which will be placed into a calendar format. The images and titles of each day will be visible in the calendar, with the option to click on them and expand the image. It’s relatively simple as far as the construction goes, but I wanted to make something that reflects my life so I decided a personal account is probably the best thing I could make. </p><p>
                     As far as the aesthetics go, I want it to be in opposition with the rest of the relatively sterile site. I want to make something bright and colorful and maybe a little bit ugly because that’s how I believe internet art should be. It’s deliberately ugly as an opposition to the natural sterility of the internet. So to that end, I’m planning on putting in as many colors as I can in the background, before putting the art piece front and center. I also want to add animations, shadows and anything else I can think of to make it more visually appealing, because I want people to not only be interested, but also to have fun engaging with the piece.</p><p>
                     Content wise, as mentioned I’m doing an art piece and a small reflection for every day of this month. In a sense, this site is kind of like a blog+, but also literature is art so I think that’s fine. The goal is to have my entire month visible at a glance, which will hopefully capture the emotions I felt as I put these entries together in a really nice way. </p>
                     <p>Something I'm very deliberately not planning on doing in my art piece is using an algorithm to make it. I want it to be hand made, as far as possible. A monument to my effort that anyone can access at any time. Because while those algorithmic art pieces are extremely cool and impressive, I want to make something that reflects my life, which is something I simply can't do with a piece of code.</p>
                     <p>So that’s my goal with my art piece: to create something that’s a little artistically ugly, really personal and easy to parse for people who are looking at it. </p>
-                    <h2>Inspirations:</h2>
+                    <h3>Theoretical artwork description and goals:</h3>
+                    <p>My plan with this artwork is to create something sort of akin to a calender in terms of ux, but visually very distinct.</p>
+                    {/* Art piece wireframe */}
+                    <img src="" alt="" /> 
+                    <p>The piece will have each day laid out and visible to be read in a top to bottom order, with each day consisting of a thumbnail with a preview of the image for that day and the title of the piece of the day.</p>
+                    <p>The main point of interaction will come with hovering over each piece. Doing so will make a preview window pop up on the users mouse, which will then on a click open up a full window where the user can read the daily blog post entry and look at the full associated image.</p>
+                    <p>The idea is to make something deliberately messy to show my hectic life, but still highly usable since I want the experience to be enjoyable for the user.</p>
+                    <h3>Implementation and possible issues:</h3>
+                    <p></p>
+                    <h3>Inspirations:</h3>
                     <p><a href="https://www.mplus.org.hk/en/collection/objects/the-lovers-2017111/#:~:text=The%20Lovers%20%E6%83%85%E4%BA%BA&text=This%20photograph%20and%20sketch%20are,,%20Amsterdam-based%20artist%20Ulay.">The Lovers: Great Wall Walk.</a> Not a piece of Web Art per se, but a deeply powerful and personal documentation of a life experience. Could very easily be made into a web art piece.</p>
                     <p><a href="http://www.sbnation.com/a/17776-football">Football 17776.</a> The first piece of internet art that really clicked for me, the inspiration will definitely seep in somewhere.</p>
                     <p><a href="https://anthology.rhizome.org/alpha-3-4">Alpha 3.4.</a> I really like the documenting of a journey in internet art, and the destruction afterwards here is food for thought.</p>
                     <p><a href="https://screenfull.net/">Screenfull.net.</a> It's hard to make something this ugly online, which is what gives it a huge amount of charm to me.</p>
                     <p><a href="https://www.cameronsworld.net/">Cameronsworld.</a> For the same reason as above.</p>
                 </article>
+
+                <article className="writingArticle" ref={blogRef1}>
+                    <h2>Blog Post 1: The Pikunikufication of it all.</h2>
+                    <button className="articleJump" onClick={() => artDeRef.current?.scrollIntoView({behavior: 'smooth'})}>Previous Article ↑ |</button>
+                    <button className="articleJump" onClick={() => blogRef2.current?.scrollIntoView({behavior: 'smooth'})}>Next Article ↓</button>
+                    <p>Wow I’m writing this next to an abattoir and you can tell…</p><p>
+                    Going into this project, I’ve felt lacking in visual inspiration for the design of the website. That
+                    was until I had a brilliant idea: Use the game Pikuniku (Sectordub, 2019) as a basis for my
+                    site. After all, my main problem right now is that I don’t have an aesthetic to represent me
+                    properly (since the theme of this site is a portfolio after all), so to fix that I obviously needed
+                    to find something which speaks to me deeply enough that I’d want to use it. Pikuniku is that
+                    thing.</p><p>
+
+                    Well, not the game per se. The game itself is a fun but far too short little experience that has
+                    one thing I really want to borrow: it’s incredibly solid visual style. I want to build off the
+                    foundation of solid colors and bold shapes to build a visual style for my site.
+                    What I’m imagining is this: Each page on the site has its own distinct color, giving them life
+                    and also making navigation easier at a glance. Then, I make the background of text a
+                    consist, likely paper esque, texture, with a solid color that is easy to read against. So
+                    probably something just off white, a little yellowish maybe. Finally, I plan on using solid but
+                    slightly rounded shapes to define the site, similar to the shapes that make up the world of
+                    Pikuniku. Once that is done, I’ll hopefully have a more visually pleasing site, to compliment
+                    my art and my artwork.</p>
+                    <h3>References:</h3>
+                    <p className='reference'>Pikuniku. 2019. Nintendo Switch. France: Sectordub</p>
+                </article>
+                <article className="writingArticle" ref={blogRef2}>
+                    <h2>Blog Post 2:  A sliding scale between handmade and algorithmic</h2>
+                    <button className="articleJump" onClick={() => blogRef1.current?.scrollIntoView({behavior: 'smooth'})}>Previous Article ↑ |</button>
+                    <button className="articleJump" onClick={() => blogRef3.current?.scrollIntoView({behavior: 'smooth'})}>Next Article ↓</button>
+                    <p>Something I’m realizing makes web art so hard to define is the way it operates on a kind of
+                    scale. On the one side, you have works like our data art piece last year, which are driven by
+                    design and algorithms to make something beautiful. On the other side, you have stuff like
+                    alpha 3.4, which are entirely made by humans and only really use the
+                    internet as a medium, as opposed to as a primary method of production.</p><p>
+
+                    The issue comes when you try to make a more specific definition of web art, because you
+                    invariably come up against these two competing extremes and become tangled up in
+                    confusion because is it the one or the other that we’re trying to make here?</p><p>
+
+                    Personally, I say it’s both. That we’re trying to make anyways, I’m personally making
+                    something more on the side of handmade data art since I feel as though I want to represent
+                    myself in a more personal way for a site that is generally pretty personal. I am definitely
+                    making something that uses the internet as a medium to achieve something that can only be
+                    created online (using the benefits of rich content to create an art piece that can not only
+                    present a collage, but also elaborate on it) but I’m definitely not creating any kind of
+                    mathematical masterpiece like I’m sure some people are.</p><p>
+
+                    That’s partially because of a lack of mathematical knowledge to create such a work, but also
+                    because I want to create something nice with my own two hands, instead of letting a
+                    machine do all the work. Because this is supposed to represent me and my experience, so
+                    how on earth is an algorithm supposed to do that?</p><p>
+
+                    I’m sure there’s a way, but it’s not the path I’ve chosen.</p>
+                </article>
+                <article className="writingArticle" ref={blogRef3}>
+                    <h2>Blog Post 3: steal more</h2>
+                    <button className="articleJump" onClick={() => blogRef2.current?.scrollIntoView({behavior: 'smooth'})}>Previous Article ↑</button>
+                    <p>Everyone talks about stealing like an artist and using Apple as a point of reference, but I
+                    don’t think enough people actually do it.</p><p>
+
+                    In the process of making this site, I’ve gone from using my references (Apple and Nothing
+                    Phone) as an influence to as a template. They’ve done it right, after all, so I need to look at
+                    what makes their site so satisfying and use it where it’s applicable. That last part is the most
+                    important, since I don’t think just copying for the sake of copying will have particularly good
+                    results. No, what I’m saying is that when you’re trying to do something that an expert has
+                    done, you start out by copying them.</p><p>
+
+                    Eventually you will move away, of course. But unlike art, which you can develop your own
+                    style for and become good in your own way, web design has “correct” design choices. There
+                    are certain principles which are immutable as a result of human psychology. Imitating others
+                    is what allows you to pick up on those immutable principles, so that you can then implement
+                    them in your own work in future.</p><p>
+
+                    Finally, it’s worth remembering that what you copy doesn’t have to be the end point. You can
+                    use it as a basis, one which you tweak and experiment with as you develop your product.
+                    Because that process will allow you to both refine your craft and still create a final product
+                    which feels unique. Basically, steal slightly more than an artist.</p>
+                </article>
             </section>
-        </>
+
+        </section>
+        
     )
 }
 
+
+// This was a test placeholder. I am leaving it here because it is funny. Please ignore it.
 
 // Scripts.com
 // Bee Movie
