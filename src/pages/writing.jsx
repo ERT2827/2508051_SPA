@@ -22,7 +22,7 @@ export default function Writing() {
     return(
         <section className="writingPage">
             <section className="pageHeading">
-                <img src={topper} alt="background image" />
+                <img src={topper} alt="background" />
                 <h1>Writing</h1>
             </section>
             
@@ -85,12 +85,18 @@ export default function Writing() {
                     <h3>Theoretical artwork description and goals:</h3>
                     <p>My plan with this artwork is to create something sort of akin to a calender in terms of ux, but visually very distinct.</p>
                     {/* Art piece wireframe */}
-                    <img src="" alt="" /> 
+                    <img src="design/final_artframe.png" alt="Final art wireframe" /> 
                     <p>The piece will have each day laid out and visible to be read in a top to bottom order, with each day consisting of a thumbnail with a preview of the image for that day and the title of the piece of the day.</p>
                     <p>The main point of interaction will come with hovering over each piece. Doing so will make a preview window pop up on the users mouse, which will then on a click open up a full window where the user can read the daily blog post entry and look at the full associated image.</p>
                     <p>The idea is to make something deliberately messy to show my hectic life, but still highly usable since I want the experience to be enjoyable for the user.</p>
                     <h3>Implementation and possible issues:</h3>
-                    <p></p>
+                    <p>The two main issues for the implementation are time and responsiveness.</p>
+                    <p>The first is the same issue as with every project: I need time to implement the art piece properly. In this case it's a bit more time than usual, since I need to set everything up. At the very least I did do the majority of the prep over the proceeding month, but there's still a lot of tedious work involved in bringing everything together.</p>
+                    <p>The other main issue is responsiveness. Getting the art piece to change size is proving to be difficult because of how specific a lot of the work I've done is, which means that really I should do an entirely seperate layout for mobile. However, that isn't possible, so instead I'm just going to have to collapse the piece when you're on a smaller device, leading to an unfortunately worse experience on mobile.</p>
+                    <p>The final issue is one that I don't need to solve, but I'm still thinking about: automation. I do definitely believe there are ways of automating this art piece further, since it involved a lot of busy work for me, but I simply don't know how to do so without losing depth and also complicating the handling of variables between scripts.</p>
+                    <h3>In Conclusion:</h3>
+                    <p>I'm trying to do a well thought out art piece which reflects upon my experiences in a fun way. It's definitely not going to be easy, especially with the amount of busy work involved, but I think that I can make it work if I stick with it long enough.</p>
+                    <p>After all, this is art. That's not something you make by just throwing together an algorithm, but rather it's something that you have to work hard, with the hopes that the hard work reflects back through the piece you create and to the audience.</p>
                     <h3>Inspirations:</h3>
                     <p><a href="https://www.mplus.org.hk/en/collection/objects/the-lovers-2017111/#:~:text=The%20Lovers%20%E6%83%85%E4%BA%BA&text=This%20photograph%20and%20sketch%20are,,%20Amsterdam-based%20artist%20Ulay.">The Lovers: Great Wall Walk.</a> Not a piece of Web Art per se, but a deeply powerful and personal documentation of a life experience. Could very easily be made into a web art piece.</p>
                     <p><a href="http://www.sbnation.com/a/17776-football">Football 17776.</a> The first piece of internet art that really clicked for me, the inspiration will definitely seep in somewhere.</p>

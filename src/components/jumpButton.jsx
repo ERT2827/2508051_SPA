@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import CheckScroll from "./checkScroll";
 
 // This is the code for the jump to top button

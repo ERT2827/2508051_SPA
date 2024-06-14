@@ -127,7 +127,7 @@ export default function Design() {
 
                 <article className="designArticle">
                     <h3>New Wireframes</h3>
-                    <span className="wireframes"><img src="design/Wireframe_home.png" alt="Home wireframe" /><img src="design/Wireframe_me.png" alt="About me wireframe" /><img src="design/Wireframe_portfolio.png" alt="Portfolio wireframe" /></span>
+                    <span className="wireframes"><img src="design/Wireframe_home.png" alt="Home wireframe" /><img src="design/Wireframe_me.png" alt="About me wireframe" /><img src="design/Wireframe_Portfolio.png" alt="Portfolio wireframe" /></span>
                     <span className="wireframes"><img src="design/Wireframe_writing.png" alt="About me wireframe" /><img src="design/Wireframe_design.png" alt="Design wireframe" /><img src="design/final_artframe.png" alt="Art wireframe" /></span>
                     <p>I've created a whole new set of wireframes for a few reasons. The first and most important is that I needed to annotate my frames. Both to make it easier to see my thought process, and because I needed to think my site through more, which is something that annotations do.</p>
                     <p>The next reason is another important one: I've changed the site a lot between submissions, and so I need to update my wireframes to reflect that. After all, I'm using these as the template to build my site, so I need to be able to work off them.</p>
@@ -153,7 +153,7 @@ export default function Design() {
                 <h3>Current wireframes</h3>
                 <img src="design/Wireframe_home.png" alt="Home wireframe" />
                 <img src="design/Wireframe_me.png" alt="Home wireframe" />
-                <img src="design/Wireframe_portfolio.png" alt="Home wireframe" />
+                <img src="design/Wireframe_Portfolio.png" alt="Home wireframe" />
                 <img src="design/final_artframe.png" alt="Home wireframe" />
                 <img src="design/Wireframe_writing.png" alt="Home wireframe" />
                 <img src="design/Wireframe_design.png" alt="Home wireframe" />

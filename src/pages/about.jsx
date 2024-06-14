@@ -1,4 +1,3 @@
-import puppypic from "../content/Puppyholder.jpg";
 import halfMan from "../content/About-drawing.png"
 
 export default function About() {

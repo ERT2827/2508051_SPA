@@ -1,4 +1,4 @@
-import { useRef, useState } from "react"
+import { useState } from "react"
 
 import topper from "../content/portfolio-topper.png"
 
@@ -12,7 +12,7 @@ export default function Portfolio(){
     function openFull(iMage, alt) {
         setFullSize(true);
         setImage(iMage);
-        setImage(alt);
+        setImageAlt(alt);
     }
 
     function closeFull() {

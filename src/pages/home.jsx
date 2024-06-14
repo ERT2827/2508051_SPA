@@ -1,4 +1,3 @@
-import puppypic from "../content/Puppyholder.jpg";
 import self from "../content/self-drawing.png"
 import { Link } from "react-router-dom";
 

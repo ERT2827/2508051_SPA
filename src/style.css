@@ -383,6 +383,11 @@ using buttons to link inside of pages.
     padding: 0 4rem;
 }
 
+.writingArticle img{
+    width: 80%;
+    margin: 0 10%;
+}
+
 .reference{
     font-style: italic;
 }
@@ -644,6 +649,12 @@ using buttons to link inside of pages.
         width: 100%;
     }
 
+    .writingArticle h2{
+        overflow-wrap: break-word;
+        width: 90%;
+        padding-left: 5%;
+    }
+
     .wireframeSection{
         flex-direction: column;
         flex-wrap: nowrap;
@@ -673,6 +684,10 @@ using buttons to link inside of pages.
         margin: 1rem 5vw;
 
         flex-direction: column;
+    }
+
+    .homeSplash h2{
+        display: none;
     }
 
  
