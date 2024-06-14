@@ -23,7 +23,7 @@ export default function Writing() {
         <section className="writingPage">
             <section className="pageHeading">
                 <img src={topper} alt="background image" />
-                <h1>Portfolio</h1>
+                <h1>Writing</h1>
             </section>
             
 

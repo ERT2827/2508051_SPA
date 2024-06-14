@@ -59,13 +59,18 @@ li{
 .menu{
     width: 50vw;
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: black;
 
     position: fixed;
     top: 3rem;
     left: 0;
 
     z-index: 9;
+}
+
+
+.menu a{
+    color: white;
 }
 
 /* Animations */

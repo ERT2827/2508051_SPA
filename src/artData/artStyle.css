@@ -17,7 +17,7 @@
     overflow-y: scroll;
 }
 
-.fullScreen div{
+.fullScreen section{
     width: 80vw;
     
     margin: 3.5rem 10vw;
@@ -26,9 +26,17 @@
     background-color: white;
 }
 
-.fullScreen div img{
+.fullScreen section img{
     width: 80%;
     margin-left: 10%;
+}
+
+.fullScreen section h2{
+    padding-left: 2rem;
+}
+
+.fullScreen section p{
+    padding: 0 2.5rem;
 }
 
 .closeButton{
@@ -212,9 +220,14 @@
 @media (max-width: 800px) {
     .artSection{
         flex-direction: column;
+        height: fit-content;
     }
 
     .artSub{
         width: 100%;
+    }
+
+    .RSA{
+        background-image: url(./thinFlag.jpg);
     }
 }

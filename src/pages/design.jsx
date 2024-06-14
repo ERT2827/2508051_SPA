@@ -3,17 +3,9 @@ import crabDance from "../content/crab-rave.gif";
 
 import topper from "../content/design-topper.png"
 
-// Wireframe imports
-import frameHome from "../content/wireframes/Wireframe_home.png";
-import frameAbout from "../content/wireframes/Wireframe_me.png";
-import frameDesign from "../content/wireframes/Wireframe_design.png";
-import frameWriting from "../content/wireframes/Wireframe_writing.png";
-import frameArt from "../content/wireframes/Wireframe_art.png";
-import frameNavbar from "../content/wireframes/Wireframe_Navbar.png";
-import siteMap from "../content/wireframes/Site-map.png";
-
 //Other Imports
 import colPal from "../content/wireframes/Color-palette.png";
+import siteMap from "../content/wireframes/Site-map.png"
 
 export default function Design() {
 
@@ -27,7 +19,7 @@ export default function Design() {
         <section className="designPage">
             <section className="pageHeading">
                 <img src={topper} alt="background image" />
-                <h1>Portfolio</h1>
+                <h1>Design</h1>
             </section>
             
             <img src={siteMap} alt="The sitemap for the site" className="sectionImage"/>
@@ -49,8 +41,8 @@ export default function Design() {
 
                 <article className="designArticle">
                     <h3>Planning and Wireframes</h3>
-                    <span className="wireframes"><img src={frameHome} alt="Wireframe for the home page" /><img src={frameAbout} alt="Wireframe for the about section" /><img src={frameDesign} alt="Wireframe for the design section" /><img src={frameWriting} alt="Wireframe for the writing section" /></span>
-                    <span className="wireframes"><img src={frameNavbar} alt="Wireframe for the navbar" /><img src={frameArt} alt="Early wireframe for the art piece" /><img src={siteMap} alt="Sitemap diagram" /></span>
+                    <span className="wireframes"><img src="design/Old_Wireframe_home.png" alt="Wireframe for the home page" /><img src="design/Old_Wireframe_me.png" alt="Wireframe for the about section" /><img src="design/Old_Wireframe_design.png" alt="Wireframe for the design section" /><img src="design/Old_Wireframe_writing.png" alt="Wireframe for the writing section" /></span>
+                    <span className="wireframes"><img src="design/Old_Wireframe_Navbar.png" alt="Wireframe for the navbar" /><img src="design/Old_Wireframe_art.png" alt="Early wireframe for the art piece" /><img src={siteMap} alt="Sitemap diagram" /></span>
                     <p>Creating a planning bible by putting together a collection of wireframes and my intention has been extremely useful in this process. </p>
                     <p>The design intention helped me to grasp the feeling I was looking for, which makes it a lot easier to invoke it than it would be if I just started working and then went backwards.</p>
                     <p>Once I had the feeling I was looking for using my design intention, I then moved onto constructing wireframes. These were not intended to be the final and complete layouts for each page, but rather served as the template for how I would lay each one out. I'm big on scalability, so being able to make everything in a series of components I can plug into my site to add more content has proved to be a solution that works for me. The wireframes helped me plan those modules, and also gave me a vision to work towards.</p>
@@ -103,6 +95,8 @@ export default function Design() {
                 </article>
             </section>
 
+            <img className="sectionImage" src="design/palette2.png" alt="Final color palette" />
+
             <h2 className="sectionHeading">Final design</h2>
 
             <section className="designSection">
@@ -122,6 +116,7 @@ export default function Design() {
 
                 <article className="designArticle">
                     <h3>Art piece design.</h3>
+                    <img src="design/final_artframe.png" alt="Art wireframe" />
                     <p>This wireframe shows the intended design for my art piece. I want to make something which is personal to me, which subverts the typical design language of internet art to create something unique.</p>
                     <p>I personally believe that the best internet art is -to some extent- ugly. This is because it's really easy to make something clean and minimal online, but making something that feels hand crafted is a lot harder. I have a lot more respect for the latter, which is why I aim to achieve that hand crafted feeling in my design.</p>
                     <p>The next goal with this art piece is to convey a journey. If you look closely, you can see that I've demarcated areas with different colors and the movement of elements to represent different parts of the month. Because even in one month, a lot can change, and I aim to represent that with this art piece.</p>
@@ -130,7 +125,46 @@ export default function Design() {
                 </article>
 
                 <article className="designArticle">
+                    <h3>New Wireframes</h3>
+                    <span className="wireframes"><img src="design/Wireframe_home.png" alt="Home wireframe" /><img src="design/Wireframe_me.png" alt="About me wireframe" /><img src="design/Wireframe_portfolio.png" alt="Portfolio wireframe" /></span>
+                    <span className="wireframes"><img src="design/Wireframe_writing.png" alt="About me wireframe" /><img src="design/Wireframe_design.png" alt="Design wireframe" /><img src="design/final_artframe.png" alt="Art wireframe" /></span>
+                    <p>I've created a whole new set of wireframes for a few reasons. The first and most important is that I needed to annotate my frames. Both to make it easier to see my thought process, and because I needed to think my site through more, which is something that annotations do.</p>
+                    <p>The next reason is another important one: I've changed the site a lot between submissions, and so I need to update my wireframes to reflect that. After all, I'm using these as the template to build my site, so I need to be able to work off them.</p>
+                    <p>The third and final reason relates to the increased amount of color in the site: the new wireframes serve as a good way to test color. They let me see how things will mesh together at a high level, which makes implementing them into the site so much easier.</p>
+                    <p>All of this is important as always because I need a plan to work off for my site. Without it, I would waste far too much time tinkering to see what I like, which would be a death sentence when time is already so limited. It's especially helpful in react, which allows the user to so easily implement their vision from their brain to the screen.</p>
                 </article>
+
+                <article className="designArticle">
+                    <h3>New Color Palette</h3>
+                    <img src="design/palette2.png" alt="Final color palette" />
+                    <p>I've created a new color palette for the site because my most universal criticism is that the black and white aesthetic was making the site look unfinished. This new palette hopes to give the site a more cohesive feeling, while also making navigation easier since each page is color coded to allow for immediate identification and a better mental mapping of the site (something which takes from level design principles in game design).</p>
+                    <p>My core colors are still black and white, since I want to maintain an easily readable visual experience, but I've also given each page a unique color as well.</p>
+                    <p>The page colors are primarily chosen with grouping in mind. Similar to how the front side has an upward sloping aesthetic and the back has a downward sloping one, the front side of the site uses warm colors while the back uses cooler ones to create a deliberate distinction.</p>
+                    <p>I've also chosen to make the backgrounds a more visually appealing off white color, which I refer to as Pikuyellow, since I feel it gives the site more of an identity. I've also combined it with a paper like effect to give the site a feeling of texture, which combines with the shadows to make a really cool effect.</p>
+                    <p>Overall, I believe this palette does a good job of reaching it's intended purpose: creating a unique but cohesive visual scheme to tie the site together and set it apart from other portfolio sites.</p>
+                    <p></p>
+                </article>
+            </section>
+
+            <h2 className="sectionHeading">Wireframes</h2>
+                
+            <section className="wireframeSection">
+                <h3>Current wireframes</h3>
+                <img src="design/Wireframe_home.png" alt="Home wireframe" />
+                <img src="design/Wireframe_me.png" alt="Home wireframe" />
+                <img src="design/Wireframe_portfolio.png" alt="Home wireframe" />
+                <img src="design/final_artframe.png" alt="Home wireframe" />
+                <img src="design/Wireframe_writing.png" alt="Home wireframe" />
+                <img src="design/Wireframe_design.png" alt="Home wireframe" />
+
+                <h3>Old wireframes</h3>
+                <img src="design/Old_Wireframe_home.png" alt="Wireframe for the home page" />
+                <img src="design/Old_Wireframe_me.png" alt="Wireframe for the home page" />
+                <img src="design/Old_Wireframe_art.png" alt="Wireframe for the home page" />
+                <img src="design/Old_Wireframe_writing.png" alt="Wireframe for the home page" />
+                <img src="design/Old_Wireframe_design.png" alt="Wireframe for the home page" />
+                <img src={siteMap} alt="Wireframe for the home page" />
+
             </section>
 
            

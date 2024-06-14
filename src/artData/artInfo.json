@@ -1,188 +1,189 @@
 {
     "May1" : {
         "image" : "artContent/may1.jpg",
-        "image_desc" : "",
+        "image_desc" : "Picture of a journal page",
         "title" : "How much do I share?",
         "textContent" : ""
     },
     "May2" : {
         "image" : "artContent/may2.jpg",
-        "image_desc" : "",
+        "image_desc" : "Picture of a journal page",
         "title" : "Writer's block",
         "textContent" : ""
     },
     "May3" : {
         "image" : "artContent/SSK-designs3.jpg",
-        "image_desc" : "",
+        "image_desc" : "Character designs",
         "title" : "Under Pressure",
-        "textContent" : "Blah blah blah"
+        "textContent" : "I feel so dumb for complaining about lack of work at the beginning of the year.  Well the problem is not the quantity of work, but workflow. Our course is carefully designed to give us the right amount of work to keep us busy without overwhelming us, but sometimes, through ignorance or bad luck, I end up in a situation where I’m forced to lock down and crunch work to get things done. I suppose I should take it as a reminder that I need to stay on top of my work load, because if I don’t then it’ll overwhelm me and I’ll end up behind, which is the worst case scenario. So as always, it's sink or swim, and I just need to take a breath and get back to swimming.  As for the art today, that’s part of the pressure: I’m making a comic as part of my honors research project, and the workload coming up to crunch time has been insane. Lots of drawing, lots of writing and way too much thinking for my taste. But that last one is the most important, because it’s forcing me to grow and change as a person to create the best artistic product possible."
     },
     "May4" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/outsider.jpg",
+        "image_desc" : "A pencil drawing",
         "title" : "Insider or outsider?",
-        "textContent" : ""
+        "textContent" : "Imposter syndrome is a nightmare. That creeping sense of self doubt, that you aren’t good enough, can tear you apart. It’s the reason why I feel like I haven’t been able to create nearly as well lately, because at every step of my creative process I feel like I’m not good enough, which stops me from creating at all and just ends up setting me back because I can’t practice to get better. It’s an extremely negative feedback loop.  More than that though, I’ve had this sense of being an imposter with my identity lately, specifically as a South African. I’ve had a lot of really good discussions about what it means to be one recently, and it’s got me to thinking: why don’t I feel South African at all? Maybe it’s just imposter syndrome, or maybe it’s my extremely sheltered upbringing. Homeschool kept me in one very specific social circle, one that is gatekept by its worst elements to keep out people who aren’t white and financially stable. And while university has undone most of the damage from that experience, I’m starting to realize there’s still a lingering sense that I do not belong because I am so fundamentally westernized.  I walk, act, talk and dress western, and it makes me feel like an outsider even when I’ve lived here my whole life because my cultural experience isn’t rooted in the same things as everyone else. At least, that’s how it feels right now, and I guess having such a strong desire to immigrate for so long probably doesn’t help either.  This art piece I made today feels like a sick extension of this feeling. It’s so bland, so derivative, and it makes me feel as though I simply should give up. Maybe I should give up."
     },
     "May5" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/faces.jpg",
+        "image_desc" : "Drawings of faces",
         "title" : "Process of iteration",
-        "textContent" : ""
+        "textContent" : "Yesterday got kind of serious, and maybe we’ll get back to that later, because I think there’s still more to unpack there. But for now, I want to talk about something else.  Iteration! It’s the backbone of artistic development. Doing the same thing over and over and expecting different results. No, wait, that’s insanity. Doing slightly different things every time to see what works best.  Personally, I use a lot of iteration in my work. A lot of my best stories are iterating on things I did before, pulling in characters and ideas from previous works that I liked to create something that I feel is only built from the good parts. That’s the goal, and it’s been much the same with both web design and Afromanga, as my only kind of OK projects are cannibalized to create something that I feel is finally kind of great. This drawing is an example of that iteration, as I cycle through different ideas to feel out which are best for my characters."
     },
     "May6" : {
         "image" : "artContent/JJPiece.jpg",
-        "image_desc" : "",
+        "image_desc" : "Digital fanart drawing",
         "title" : "Void of opinion",
-        "textContent" : ""
+        "textContent" : "It’s the strangest thing, but for the first time in my life I feel like I lack any real opinion on anything. Maybe it’s some kind of decision burnout, I have been making a lot of big choices lately, or maybe it’s an overwhelming feeling that I’m academically insufficient to be saying anything about anything. Either way, it’s a weird feeling. Definitely a bad one, but not actively unpleasant like anger or sadness. Just a faint numbness of the heart.  Whatever, I don’t typically feel things for that long. I’m fickle like that. And I have inspiration for art as well. Nothing high or grandiose, I’m not in the mood for that right now and I’m also not that good at it, but I have been inspired to take my shot at some fanart, so we’ll see how that goes."
     },
     "May7" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/thumbs.jpg",
+        "image_desc" : "Thumbnail drawings",
         "title" : "Working hard or hardly working?",
-        "textContent" : ""
+        "textContent" : "I wonder if I’m a hard worker. I mean, it feels like something you’d know, but I haven’t been able to ever come to a conclusion. I mean, on the one hand, I do work pretty hard. I haven’t taken a single day properly off in about a month, and I’m always cooking something. But my effort is also so fickle, I often end up blasting the beginning of a new project insanely hard before progressively losing interest. It’s a stupid thing, but it’s my process. It’s just this year has made me reflect on my process, which has proven to be both a productive but also difficult thing to do."
     },
     "May8" : {
         "image" : "artContent/worm.jpg",
-        "image_desc" : "",
+        "image_desc" : "Drawing of a worm man",
         "title" : "What if I was a worm?",
-        "textContent" : ""
+        "textContent" : "Maybe if I was a worm I would wriggle about in the ground and be a silly little guy all day in the ground and dig around and decompose stuff. That would be pretty fun, but then also I wouldn’t be conscious or intelligent so I couldn’t create stuff and that would be pretty sad for me. So I don’t want to be a worm."
     },
     "May9" : {
         "image" : "artContent/Shirt.jpg",
-        "image_desc" : "",
+        "image_desc" : "Drawing of a shirt with the South African flag on it",
         "title" : "Cousin Harry's questions",
-        "textContent" : ""
+        "textContent" : "My cousin recently asked if I could answer some questions for him about Apartheid and the TRC. I found the process of doing so to be pretty interesting, partially because I had my boyfriend there and he studies politics, but also because the questions themselves were really good. It got me thinking about whether the past is really the past, and when we should bury things vs when we should bring them back up. It pushed me both morally and intellectually, which was pleasantly surprising considering my cousin mostly comes across as a pretty typical 16 year old American boy. I suppose it gives me hope that his parents are raising him right to hopefully do at least a little good in this world, as they should be."
+        
     },
     "May10" : {
         "image" : "artContent/SSK-designs4.jpg",
-        "image_desc" : "",
+        "image_desc" : "Character designs",
         "title" : "The Pitch.",
-        "textContent" : ""
+        "textContent" : "I just pitched my comic to a panel of judges, and I’ve got to say it’s up there for one of the sketchiest things I’ve done in this degree. We were revising right up until the line (literally, I was making changes in front of the lecturer). But despite all that, along with the nerves and my absolute inability to explain anything, we actually did pretty well apparently. As in, all the people we were pitching to had both good feedback and also said to us that they liked our pitch.  Sure, it wasn’t perfect. I think our choice of genre needs to be refined, but we’re making changes. Our fundamental narrative seems to be ready for the big time, and it’s good to see that everything from this point is not what we need to do, but what we want to do to make the best possible final product.  So good pitch overall, even if it was a nightmare getting there. Next step is getting started for real but I’m going to procrastinate a bit because I might die if I think about this comic anymore in the near future."
     },
     "May11" : {
         "image" : "artContent/Domingue.jpg",
-        "image_desc" : "",
+        "image_desc" : "Drawing of a person hanging from a cliff",
         "title" : "Is Afromanga indiginization?",
-        "textContent" : ""
+        "textContent" : "To start off with, what is indigenization? In short, it’s a process of making a product connect with a foreign audience as though it’s a local product. We see it constantly in South Africa with everything from braai flavored Maggi to any ad for a foreign company that uses an african language. It’s common to us, in other words.  Short answer: yes. We have a How to Draw Manga book in our room, we hold no illusions about the relationship we have with the Japanese comics industry. Our success is their success, which is the more interesting part to talk about since that can be a double edged sword.  In short, we are not succeeding on our own merits. This has the upside of making things easier, but also ties Afromanga to a foreign industry when we should be trying to forge our own niche. It’s a conundrum, but one we need to remember to avoid falling into any kind of traps. It’s also not something I particularly feel smart enough to address right now."
     },
     "May12" : {
         "image" : "artContent/Drive.jpg",
-        "image_desc" : "",
+        "image_desc" : "Drawing of Ryan Gosling in Drive (2011)",
         "title" : "I Drive.",
-        "textContent" : ""
+        "textContent" : "Guess what I spent five hours doing yesterday? Driving.  It was a nightmare, going all the way out to Hartebeespoort for a delivery. But it’s the things we do for spending money, right. It also has built up my personality a lot, teaching me hard lessons about perseverance as I sit for hour after hour behind the wheel.   There’s also a sense of empathy and camaraderie with fellow people who drive for a living, like truckers and Uber drivers. I’ve come to understand what a hard job it is, both mentally and physically, which has given me a very new perspective whenever I see them around.  At the very least, I had a co-driver, which made the whole process a lot more bearable, even if it wasn’t easier or anything. It’s the little things I guess."
     },
     "May13" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/sink.jpg",
+        "image_desc" : "A picture of items in the sink",
         "title" : "A day off",
-        "textContent" : ""
+        "textContent" : "I decided to use today as a true day off. Just a whole day of doing absolutely nothing. Horrible, I know, what a waste, but it was much needed. I feel like I haven’t caught my breath in ages, and now I’ve finally recentered so that I can carry on with something approaching enthusiasm, instead of beating my broken body and soul onwards towards completing my goal.   In other words, taking a bit of time to rest means you get more done when you don’t. Or at least, that’s how I’m justifying today to myself.  Maybe I’m just a princess."
     },
     "May14" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/practice.jpg",
+        "image_desc" : "Drawing practice",
         "title" : "Fundamentally fundamentals",
-        "textContent" : ""
+        "textContent" : "Horrible though it may be, from time to time we all need to go back to basics. Practice the fundamentals of our art, and draw annoying things like hands or even feet because seriously feet are weirdly hard to draw and nobody knows how because obviously practicing that is weird so why would you do it? But then you end up in a situation where you have to draw a foot and you can’t do it because you don’t know how, which is awkward. So there forth, you have to practice fundamentals!"
     },
     "May15" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "design/Old_Wireframe_home.png",
+        "image_desc" : "Wireframe of the home page",
         "title" : "Planning makes it faster",
-        "textContent" : ""
+        "textContent" : "I used to hate doing planning, but as I’ve grown and matured as both a creator and person, I’ve come to realize the importance of doing it because actually taking that little bit of time beforehand makes the whole process that much easier. So now I do planning, because the time it saves is worth the little bit of annoyance involved in doing it."
     },
     "May16" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/may16.jpg",
+        "image_desc" : "Picture of a journal page",
         "title" : "Forced days off",
         "textContent" : ""
     },
     "May17" : {
         "image" : "artContent/bowl.jpg",
-        "image_desc" : "",
+        "image_desc" : "A food study",
         "title" : "Good food",
-        "textContent" : ""
+        "textContent" : "I had lunch with my boyfriend's family today, and I gotta say, it was really good. Probably the first time I’ve really enjoyed a lasagna, which is saying a lot because historically I’ve hated the stuff. I guess it’s just how it goes when you’re trying to make a positive impression, but more than that I think not having a voice in your ear whispering that food is bad makes it a lot easier to stomach.  I just won’t ever eat spaghetti bolognaise, because I have too much related trauma to ever enjoy that stuff I’m afraid."
     },
     "May18" : {
         "image" : "artContent/Fort.png",
-        "image_desc" : "",
+        "image_desc" : "Fortnite screenshot",
         "title" : "Fortnite flirtin",
-        "textContent" : ""
+        "textContent" : "I do love a good online date, and what I’ve found is that Fortnite might be the perfect game. It’s free, casual and expressive. You’re able to show off a bit to your partner, but also cooperate nicely with them. Really, it’s near perfect for online dating.  I do wonder what other games could work though, now that I think about it. Cruising the streets of Mexico in Forza Horizon 5 might be fun, or maybe I might organize lunch in Los Santos from GTA V. Really, we live in a golden age for spending time remotely with partners, it’s just a case of coordinating it and covering it financially. Just like any other date, which are of course equally important."
     },
     "May19" : {
         "image" : "artContent/Valviking.jpg",
-        "image_desc" : "",
+        "image_desc" : "Digital drawing of a guy in power armor",
         "title" : "A little inspiration",
-        "textContent" : ""
+        "textContent" : "I’ve finally gotten some inspiration to be creative, and I must say it feels good. It’s nice to have an idea and just start writing it, although that self criticism is still ever present. I think I just need to do whatever nonsense I want right now, because otherwise if I don’t I’m never going to end up doing anything. Besides, all my best work consumes the previous output as inspiration anyways."
     },
     "May20" : {
         "image" : "artContent/Grannyshelves2.png",
-        "image_desc" : "",
+        "image_desc" : "A diagram of a kitchen",
         "title" : "Helping out Granny",
-        "textContent" : ""
+        "textContent" : "As my skills grow, I’m starting to use my skills to help people out. Because as much as I’m usually useless at graphic design, I tend to forget that I’ve been doing this for four years and my familiarity with the software is usually enough that I can get by. So I helped my grandmother design her new kitchen. I do wish I could get my hands on the raw 3d file, because I probably could have done an even better job, but you’d be amazed by what you can achieve with the color select tool and some shading."
     },
     "May21" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/climbingWall.jpg",
+        "image_desc" : "Rock climbing wall",
         "title" : "Route setting and taste making.",
-        "textContent" : ""
+        "textContent" : "Of all the places I’ve ever felt excluded, rock climbing has to take the cake. Seriously, I think they actually don’t like me for some reason because I just cannot integrate socially. Which now has become more interesting to me, because I’ve just joined the elusive upper echelon of route setters, which thereby makes me a tastemaker, even if I’m not the best in the club by any stretch. I’m basically working for American Runway now, and yet I’m still feeling like a fly on the wall.  Maybe it’s just not meant to be, and I’ll always be one of the outsiders. Not that I mind that too much anymore, those guys are all dicks.  As for the route itself, I think it wasn’t terrible for a first attempt. Having to climb while setting it made life a lot harder, but it serves as a good intermediate route, with a challenging move to keep it exciting while not being too long or overwhelming."
     },
     "May22" : {
         "image" : "artContent/Fortnite-mini-comic.jpg",
-        "image_desc" : "",
+        "image_desc" : "A short fortnite comic",
         "title" : "Fortnite battle pass",
-        "textContent" : ""
+        "textContent" : "After spending another R250 on Fortnite to buy my boyfriend a Lewis Hamilton skin, it got me thinking about how Fortnite manages to get me to spend money when no other game can. I mean seriously, I do it so casually it’s insane. I think there’s a lot that goes into making Fortnite feel like an ecosystem that’s worth investing into, but what I wanted to look at specifically today is how they roll out content.  Fortnite is really good at consistently rolling out meaningful content, and that’s what I would say is responsible for 99% of their success. Because people will play a fun game one time (usually), but they will only keep coming back if you keep them excited over time. It’s why weekly shonen works as well, or series with several entries are usually remembered longer. But it’s also important to remember it’s just spice to add to a good product, because excitement doesn’t just come from anticipation. More than that, poorly planned releases can kill a product outright, just look at Part 6 of Jojo’s or Invincible season 2."
     },
     "May23" : {
         "image" : "artContent/Boatfall.jpg",
-        "image_desc" : "",
+        "image_desc" : "A drawing of me falling from a boat",
         "title" : "Out on the Plaat",
-        "textContent" : ""
+        "textContent" : "I went out rowing to Roodeplaat for the second time yesterday, and my first comment is that I deserve an award for getting out of my warm comfy bed at 5 AM to drive to wits to hop on a bus. My second comment is that rowing is fun. Really fun.  I went on a scull for the first time (which is a one person boat) and it was insanely difficult. I crashed out into the water in the first 2 minutes, and it took me ages to get comfortable. But once I got over the initial discomfort, it was so fun. It’s nice to be just you and your boat, rowing along at your own pace as you try to refine your technique. Sure, my body ached and hurt by the end of it, especially since the wind was against me on the last part of my second lap, but it was so worth it. Besides, the next time should get easier, as my little gremlin body is stretched to sit comfortably in the boat."
     },
     "May24" : {
         "image" : "artContent/Eva.jpg",
-        "image_desc" : "",
+        "image_desc" : "A drawing of Evangelion",
         "title" : "I clippa tha studio paint",
-        "textContent" : ""
+        "textContent" : "I’m learning Clip Studio Paint, and I’ve got to say: why is this a thing? I love Krita so much, it’s so easy to use and completely free, so why should I use a more annoying software that I have to pay money for? Well, the obvious answer is that it has more development time, and is a more unified platform where you’ll get proper support from the developers if you have a problem, but still. I’ve become so attached to Krita, and it works so well, so forgive me for being hesitant.  But I press on, because I need to learn this software for Afromanga, so I’m going to keep making stuff in CSP until next year, when the license runs out and I go right back to my beloved Krita for the foreseeable future since this is -at the end of the day- a hobby to me, and not something I can justify spending that much money on right now."
     },
     "May25" : {
         "image" : "artContent/Timmy_S.jpg",
-        "image_desc" : "",
+        "image_desc" : "A drawing of Tim Sweeny",
         "title" : "Thank you epic games, very cool.",
-        "textContent" : ""
+        "textContent" : "I love Epic games for giving away a free game every week. Like seriously, my Epic games library is about as big as my steam library and I’ve bought all of two things there. It’s awesome, and I always tell every second year who’s interested in game design to get on that because at the end of the day you learn the most by just playing games. As much and as many as possible, because every new game you play offers a new chance to see a wide array of mechanics and narrative ideas you can artistically borrow for your own game. Because nothing in this world is new, it’s just about how you combine everything together."
     },
     "May26" : {
         "image" : "artContent/Adidas.jpg",
-        "image_desc" : "",
+        "image_desc" : "A drawing of a Russian man",
         "title" : "On track.",
-        "textContent" : ""
+        "textContent" : "I finally did it! I got some Adidas pants!  Well, I mean my parents generously bought them for me (thanks guys!) but the point still stands.  I’ve been moving more and more towards brands lately, and it does make me wonder if I’m not becoming a bit of a consumer. To a degree I think I am, which is definitely something I need to correct, but I also think that now I’ve stopped growing and clothes are lasting me longer, I’m looking more and more for stuff that is super comfortable and long lasting to fill out my cupboard. Yes, I think that thrifting for older high end clothing would be better for that, since it is known to last a lot longer and be made of higher quality materials than modern stuff, but it’s also not every day that you find a second hand Tommy-Hilfiger button up shirt, so I think you do need to strike a balance between getting stuff that is fashionable, durable, comfortable and most importantly affordable. Because like hell am I paying more than R400 for an item of clothing!"
     },
     "May27" : {
         "image" : "artContent/hulkuna.png",
-        "image_desc" : "",
+        "image_desc" : "A very silly meme",
         "title" : "Respect the hulk",
-        "textContent" : ""
+        "textContent" : "I’ve been seeing a lot of people posting about the strongest characters in all of fiction, and not a lot of them are posting about the Hulk. I, as a fellow Bruce, shall not take this slander.  The Hulk is one of the strongest characters in all of fiction, possessing functionally limitless strength (he is the strongest one there is), an insane healing ability and a massive level of adaptability and durability. He’s so strong he once blew up a solar system with a single punch, and has fought people like Sentry to a standstill (baring in mind Sentry basically can’t lose unless he chooses to do so). And yet there are still clowns who say characters like Sukuna from Jujutsu Kaisen could beat him, when the fight would likely be a one sided joke in the Hulks favor.  Oh, and the best part: Hulk isn’t even Bruce Banner’s strongest form. He has another potential form, called the Immortal Hulk, which is way stronger and comes out in the worst situations. So yeah, put some respect on my man’s name. Because they don’t call him the strongest there is for no reason."
     },
     "May28" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/facistPost.png",
+        "image_desc" : "A screenshot of my game",
         "title" : "Work day work day!",
-        "textContent" : ""
+        "textContent" : "Sometimes you just gotta take a day to work. I love spending time with people and getting other stuff done, but I’m also a fourth year, so there’ll often be days where I just need to sit down and get as much done as possible. Because I am easily distracted, and only work well at a desk, so if I don’t acknowledge that then I’m destined for failure. Today was one such day, grinding away that whole day at getting work done on my game, my Afromanga essay and this art piece, since there were maybe a few entries that needed to be finished teehee."
     },
     "May29" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/Thumb.jpg",
+        "image_desc" : "A photo of my thumb",
         "title" : "Voting day",
-        "textContent" : ""
+        "textContent" : "It’s finally time to vote. After more political debates than I care to think about, I finally made my decision. It’s maybe a bit wishy washy, but then again there’s no good option because ultimately, this election isn’t about any party winning, it’s about the ANC losing. I will say it’s quite exciting for me though. I’ve never voted before, so having my chance to cast a part in the future of my country is super exciting, especially since this vote promises to have such drastic outcomes. The only thing I’m particularly worried about is load shedding, because I suspect we’re going straight back to stage six promptly tomorrow morning."
     },
     "May30" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "artContent/console.jpg",
+        "image_desc" : "A diagram of a comic",
         "title" : "Post post voting rager",
-        "textContent" : ""
+        "textContent" : "So I somehow managed to make it home from my boyfriend’s house today. It took a lot to drag myself all the way back home, but in the end it was so worth it because that party was awesome!  Against all odds, we somehow managed to have good clean fun. Very few people got super wasted, and we didn’t have any fights even. People kept their bumping uglies to the bushes, which damn right, and overall I think it was a great evening for everyone involved.  As for what this drawing is, it’s a console design I was throwing around for if I ever got the prerequisite billion dollars required to start up a company and develop this product. The idea is a console for game makers and players. You would be able to -at any time in supported games- switch into game making mode and take elements from the games you have to make games of your own. It would serve as a robust ecosystem, one which is highly modular and player first. And hopefully it’d make a ton of money."
     },
     "May31" : {
-        "image" : "artContent/",
-        "image_desc" : "",
+        "image" : "design/final_artframe.png",
+        "image_desc" : "The final wireframe for the art piece",
         "title" : "Finale",
-        "textContent" : ""
+        "textContent" : "This month has been exceptional. Well, maybe it’s just because before this year my life was so ceptional, but I feel like most days I’ve had at least something going on. Be it a voting rager, a hard hard grind or any number of other things, I’ve been chipping away hard and now I can look back at this art piece with a sense of pride. Because this month has ultimately been awesome, for all the ups and downs, and this is a testament to that.  I went rowing, rock climbing, drove to Hartebeespoort and back, voted for the first time, learnt a new tool for drawing, questioned stuff about myself I’d never thought of before and a ton more stuff that I probably forgot about until I read back through.  And most of all, this month I met Ollie. And that’s been one of the most special experiences of my life. I’m actually tempted to not show him this art piece, because if he sees it he’ll see just how much I’ve been thinking about him. He’s everywhere in this piece, which is why I’m thinking about making him literally omnipresent in the background.  So, it’s been a great month. And it’s just one of twelve holy shit! But that’s just how it goes when you always live in the moment, it feels like every week is an eternity because so much stuff keeps happening. And I’d never live any other way, because life is too short to live it in a blur, so you’ve gotta vary everything up all the time so that doesn’t happen. Sometimes that gets you hurt, often it leaves you exhausted, but most importantly you never get bored."
     }
 }
