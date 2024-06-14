@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import crabDance from "../content/crab-rave.gif";
 
 import topper from "../content/design-topper.png"
@@ -121,7 +122,7 @@ export default function Design() {
                     <p>I personally believe that the best internet art is -to some extent- ugly. This is because it's really easy to make something clean and minimal online, but making something that feels hand crafted is a lot harder. I have a lot more respect for the latter, which is why I aim to achieve that hand crafted feeling in my design.</p>
                     <p>The next goal with this art piece is to convey a journey. If you look closely, you can see that I've demarcated areas with different colors and the movement of elements to represent different parts of the month. Because even in one month, a lot can change, and I aim to represent that with this art piece.</p>
                     <p>Something this wireframe doesn't show is the variance between days created by how each day has a unique image to go along with it. Initially, each day was supposed to be a drawing, but as time went on I realized that doing so would not be enough to truly capture the variety that I felt in this past month, so I changed it to be more multimodal.</p>
-                    <p></p>
+                    <p>So that's how the art piece ended up looking. For more info on how I designed it and the research I did, go here: <Link to="2508051_SPA/writing">Writing</Link></p>
                 </article>
 
                 <article className="designArticle">

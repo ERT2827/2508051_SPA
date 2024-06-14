@@ -622,6 +622,13 @@ using buttons to link inside of pages.
     border: 5px solid #fef1de;
 }
 
+/* Error page */
+.errorPage{
+    font-size: 4rem;
+    width: 100vw;
+    text-align: center;
+}
+
 /* Reactivity control */
 
 @media (max-width: 900px){
