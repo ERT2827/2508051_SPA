@@ -625,6 +625,30 @@ using buttons to link inside of pages.
 .portfolioBody img{
     width: 24%; 
     border: 5px solid #fef1de;
+    height: min-content;
+}
+
+.portfolioFullScreen{
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    z-index: 3;
+
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.portfolioFullScreen img{
+    height: 80vh;
+    padding-top: 2rem;
 }
 
 /* Error page */
@@ -663,6 +687,19 @@ using buttons to link inside of pages.
     .wireframeSection img{
         width: 100%;
     }
+
+    .portfolioBody img{
+        width: 47%;
+    }
+
+    .homeBox section{
+        flex-direction: column;
+        padding: 1rem 0.2rem;
+    }
+
+    .homeBox p{
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -690,7 +727,8 @@ using buttons to link inside of pages.
         display: none;
     }
 
- 
-
+    .portfolioBody img{
+        width: 100%;
+    }
 
 }

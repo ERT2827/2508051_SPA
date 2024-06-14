@@ -14,7 +14,7 @@ export default function Home() {
                 <img src={self} alt="A drawing of myself" />
                 <h1>I make Websites</h1>
                 <h2>Wanna find out more?</h2>
-                <span>∇</span>
+                {/* <span>∇</span> */}
             </section>
             <article className="homeBox">
                 {/* <img src={puppypic} alt="" /> */}

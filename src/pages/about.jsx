@@ -1,4 +1,4 @@
-import halfMan from "../content/About-drawing.png"
+import halfMan from "../content/About-drawing.png";
 
 export default function About() {
     return(

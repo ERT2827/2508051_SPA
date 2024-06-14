@@ -45,6 +45,10 @@ export default function Art() {
     return(
         <>
             <div className="topPad"/>
+
+            <h2 className="mobileWarning">Warning: This content is not optimized for mobile devices. Please view it on a full sized screen.</h2>
+            {/* It's a cop out I know, but I just didn't have time to
+            do anything better unfortunately.  */}
             
             <section className="artSection">
                 <article className="artSub">

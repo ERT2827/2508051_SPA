@@ -3,6 +3,14 @@
     margin-top: 4rem;
 }
 
+.mobileWarning{
+    width: 100vw;
+
+    text-align: center;
+
+    display: none;
+}
+
 /* fullscreen style */
 
 .fullScreen{
@@ -229,5 +237,9 @@
 
     .RSA{
         background-image: url(./thinFlag.jpg);
+    }
+
+    .mobileWarning{
+        display: block;
     }
 }

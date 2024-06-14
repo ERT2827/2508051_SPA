@@ -2,11 +2,11 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import crabDance from "../content/crab-rave.gif";
 
-import topper from "../content/design-topper.png"
+import topper from "../content/design-topper.png";
 
 //Other Imports
 import colPal from "../content/wireframes/Color-palette.png";
-import siteMap from "../content/wireframes/Site-map.png"
+import siteMap from "../content/wireframes/Site-map.png";
 
 export default function Design() {
 
